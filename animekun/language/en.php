@@ -17,4 +17,7 @@ $language['en'] = [
     # User
     'login' => 'Login',
     'register' => 'Register',
+
+    # Menu Second
+    
 ];
