@@ -4,12 +4,7 @@
     <?php include('../template/menu_top.php'); ?>
 
     <div class="container">
-        <h1>AnimeKun.Ru Refactoring</h1>
-        <p>Test test</p>
 
-        <div class="">
-
-        </div>
     </div>
 </div>
 
