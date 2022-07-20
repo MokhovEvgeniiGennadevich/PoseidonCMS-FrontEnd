@@ -1,4 +1,12 @@
 <?php
+###########################################################################
+## Security Check
+if ( defined('__SECURITY_CHECK__') === false ) 
+{
+    http_response_code(404);
+    exit();
+}
+
 function return_a_b(string $host, array $data, array $keys, int $count, array $hash_keys, int $hash_count) {
     $iv = openssl_random_pseudo_bytes($keys[$count][1]);
 
